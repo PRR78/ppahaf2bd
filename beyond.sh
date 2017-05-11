@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd $HOME/BDReborn
+cd $HOME/ppahaf2bd
 
 install() {
 	    cd libs
