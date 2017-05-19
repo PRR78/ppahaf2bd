@@ -3904,16 +3904,16 @@ if (matches[1]:lower() == "help" or matches[1] == 'راهنما') and is_mod(msg
 if not lang then
 text = [[
 *TelePlus Bot Commands:*
-*!setmanager* `[username|id|reply]` 
+*👑 !setmanager* `[username|id|reply]` 
 _Add User To Group Admins(CreatorBot)_
 					
-*!Remmanager* `[username|id|reply]` 
+*👑 !Remmanager* `[username|id|reply]` 
  _Remove User From Owner List(CreatorBot)_
 					
-*!setowner* `[username|id|reply]` 
+*👑 !setowner* `[username|id|reply]` 
 _Set Group Owner(Multi Owner)_
 					
-*!remowner* `[username|id|reply]` 
+*👑 !remowner* `[username|id|reply]` 
  _Remove User From Owner List_
 					
 *!promote* `[username|id|reply]` 
