@@ -3904,49 +3904,49 @@ if (matches[1]:lower() == "help" or matches[1] == 'راهنما') and is_mod(msg
 if not lang then
 text = [[
 *TelePlus Bot Commands:*
-*👑 !setmanager* `[username|id|reply]` 
+👑*!setmanager* `[username|id|reply]` 
 _Add User To Group Admins(CreatorBot)_
 					
-*👑 !Remmanager* `[username|id|reply]` 
+👑*!Remmanager* `[username|id|reply]` 
  _Remove User From Owner List(CreatorBot)_
 					
-*👑 !setowner* `[username|id|reply]` 
+👑*!setowner* `[username|id|reply]` 
 _Set Group Owner(Multi Owner)_
 					
-*👑 !remowner* `[username|id|reply]` 
+👑*!remowner* `[username|id|reply]` 
  _Remove User From Owner List_
 					
-*!promote* `[username|id|reply]` 
+🤖*!promote* `[username|id|reply]` 
 _Promote User To Group Admin_
 					
-*!demote* `[username|id|reply]` 
+🤖*!demote* `[username|id|reply]` 
 _Demote User From Group Admins List_
 					
-*!setflood* `[2-50]`
+🗣*!setflood* `[2-50]`
 _Set Flooding Number_
 					
-*!silent* `[username|id|reply]` 
+🔕*!silent* `[username|id|reply]` 
 _Silent User From Group_
 					
-*!unsilent* `[username|id|reply]` 
+🔔*!unsilent* `[username|id|reply]` 
 _Unsilent User From Group_
 					
-*!kick* `[username|id|reply]` 
+👊*!kick* `[username|id|reply]` 
 _Kick User From Group_
 					
-*!ban* `[username|id|reply]` 
+👊*!ban* `[username|id|reply]` 
 _Ban User From Group_
 					
-*!unban* `[username|id|reply]` 
+✋*!unban* `[username|id|reply]` 
 _UnBan User From Group_
 					
-*!res* `[username]`
+🔹*!res* `[username]`
 _Show User ID_
 					
-*!id* `[reply]`
+🔹*!id* `[reply]`
 _Show User ID_
 					
-*!whois* `[id]`
+🔹*!whois* `[id]`
 _Show User's Username And Name_
 					
 *!lock* `[link | join | tag | edit | arabic | webpage | bots | spam | flood | markdown | mention | pin | cmds]`
