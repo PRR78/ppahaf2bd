@@ -3903,155 +3903,155 @@ if not lang then
 if (matches[1]:lower() == "help" or matches[1] == 'راهنما') and is_mod(msg) then
 if not lang then
 text = [[
-*TelePlus Bot Commands:*
-👑*!setmanager* `[username|id|reply]` 
+🔰 *TelePlus Bot Commands:* 🔰
+👑 *!setmanager* `[username|id|reply]` 
 _Add User To Group Admins(CreatorBot)_
 					
-👑*!Remmanager* `[username|id|reply]` 
+👑 *!Remmanager* `[username|id|reply]` 
  _Remove User From Owner List(CreatorBot)_
 					
-👑*!setowner* `[username|id|reply]` 
+👑 *!setowner* `[username|id|reply]` 
 _Set Group Owner(Multi Owner)_
 					
-👑*!remowner* `[username|id|reply]` 
+👑 *!remowner* `[username|id|reply]` 
  _Remove User From Owner List_
 					
-🤖*!promote* `[username|id|reply]` 
+🤖 *!promote* `[username|id|reply]` 
 _Promote User To Group Admin_
 					
-🤖*!demote* `[username|id|reply]` 
+🤖 *!demote* `[username|id|reply]` 
 _Demote User From Group Admins List_
 					
-🗣*!setflood* `[2-50]`
+🗣 *!setflood* `[2-50]`
 _Set Flooding Number_
 					
-🔕*!silent* `[username|id|reply]` 
+🔕 *!silent* `[username|id|reply]` 
 _Silent User From Group_
 					
-🔔*!unsilent* `[username|id|reply]` 
+🔔 *!unsilent* `[username|id|reply]` 
 _Unsilent User From Group_
 					
-👊*!kick* `[username|id|reply]` 
+👊 *!kick* `[username|id|reply]` 
 _Kick User From Group_
 					
-👊*!ban* `[username|id|reply]` 
+👊 *!ban* `[username|id|reply]` 
 _Ban User From Group_
 					
-✋*!unban* `[username|id|reply]` 
+✋ *!unban* `[username|id|reply]` 
 _UnBan User From Group_
 					
-🔹*!res* `[username]`
+🔹 *!res* `[username]`
 _Show User ID_
 					
-🔹*!id* `[reply]`
+🔹 *!id* `[reply]`
 _Show User ID_
 					
-🔹*!whois* `[id]`
+🔹 *!whois* `[id]`
 _Show User's Username And Name_
 					
-*!lock* `[link | join | tag | edit | arabic | webpage | bots | spam | flood | markdown | mention | pin | cmds]`
+🔒 *!lock* `[link | join | tag | edit | arabic | webpage | bots | spam | flood | markdown | mention | pin | cmds]`
 _If This Actions Lock, Bot Check Actions And Delete Them_
 					
-*!unlock* `[link | join | tag | edit | arabic | webpage | bots | spam | flood | markdown | mention | pin | cmds]`
+🔓 *!unlock* `[link | join | tag | edit | arabic | webpage | bots | spam | flood | markdown | mention | pin | cmds]`
 _If This Actions Unlock, Bot Not Delete Them_
 					
-*!mute* `[all | gif | photo | document | sticker | inline | keyboard | video | text | forward | location | audio | voice | contact | game | tgservice ]`
+🔕 *!mute* `[all | gif | photo | document | sticker | inline | keyboard | video | text | forward | location | audio | voice | contact | game | tgservice ]`
 _If This Actions Lock, Bot Check Actions And Delete Them_
 					
-*!unmute* `[all | gif | photo | document | sticker | inline | keyboard | video | text | forward | location | audio | voice | contact | game | tgservice ]`
+🔔 *!unmute* `[all | gif | photo | document | sticker | inline | keyboard | video | text | forward | location | audio | voice | contact | game | tgservice ]`
 _If This Actions Unlock, Bot Not Delete Them_
 					
-*!mutetime* `(hour) (minute) (seconds)`
+🔕 *!mutetime* `(hour) (minute) (seconds)`
 _Mute group at this time_ 
 					
-*!mutehours* `(number)`
+🔕 *!mutehours* `(number)`
 _Mute group at this time_ 
 					
-*!muteminutes* `(number)`
+🔕 *!muteminutes* `(number)`
 _Mute group at this time_ 
 					
-*!muteseconds* `(number)`
+🔕 *!muteseconds* `(number)`
 _Mute group at this time_
 					
-*!set*`[rules | name | link | about | welcome]`
+✍ *!set*`[rules | name | link | about | welcome]`
 _Bot Set Them_
 					
-*!clean* `[bans | mods | bots | rules | about | silentlist | filtelist | welcome]`   
+🚿 *!clean* `[bans | mods | bots | rules | about | silentlist | filtelist | welcome]`   
 _Bot Clean Them_
 					
-*!filter* `[word]`
+🚫 *!filter* `[word]`
 _Word filter_
 					
-*!unfilter* `[word]`
+🚫 *!unfilter* `[word]`
 _Word unfilter_
 					
-*!pin* `[reply]`
+📍 *!pin* `[reply]`
 _Pin Your Message_
 					
-*!unpin* 
+📍 *!unpin* 
 _Unpin Pinned Message_
 					
-*!welcome enable/disable*
+➕ *!welcome enable/disable*
 _Enable Or Disable Group Welcome_
 					
-*!settings*
+🔰 *!settings*
 _Show Group Settings_
 					
-*!cmds* `[member | moderator | owner]`	
+🔰 *!cmds* `[member | moderator | owner]`	
 _set cmd_
 					
-*!mutelist*
+🔕 *!mutelist*
 _Show Mutes List_
 					
-*!whitelist* `[+ | -]`	
+🔔 *!whitelist* `[+ | -]`	
 _Add User To White List_
 					
-*!silentlist*
+🔕 *!silentlist*
 _Show Silented Users List_
 					
-*!filterlist*
+🚫 *!filterlist*
 _Show Filtered Words List_
 					
-*!banlist*
+🔕 *!banlist*
 _Show Banned Users List_
 					
-*!ownerlist*
+👑 *!ownerlist*
 _Show Group Owners List_ 
 					
-*!whitelist*
+🔔 *!whitelist*
 _Show Group whitelist List_
 					
-*!modlist* 
+🤖 *!modlist* 
 _Show Group Moderators List_
 					
-*!rules*
+🔹 *!rules*
 _Show Group Rules_
 					
-*!about*
+🔹 *!about*
 _Show Group Description_
 					
-*!id*
+🔹 *!id*
 _Show Your And Chat ID_
 					
-*!gpinfo*
+🎖 *!gpinfo*
 _Show Group Information_
 					
-*!newlink*
+✍ *!newlink*
 _Create A New Link_
 					
-*!link*
+🔹 *!link*
 _Show Group Link_
 					
-*!setlang fa*
+✍ *!setlang fa*
 _Set Persian Language_
 					
-*!setwelcome [text]*
+✍ *!setwelcome [text]*
 _set Welcome Message_
 					
-*!helpfun*
+🔰 *!helpfun*
 _Show Fun Help_
 					
-*!helpmute*
+🔰 *!helpmute*
 _Show mute Help_
 					
 _You Can Use_ *[!/#]* _To Run The Commands_
